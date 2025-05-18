@@ -35,9 +35,9 @@ int main()
     cin.tie(nullptr);
     Node* head=new Node(10);
     Node* a=new Node(20);
-    Node* b=new Node(30);
-    Node* c=new Node(40);
-    Node* d=new Node(50);
+    Node* b=new Node(60);
+    Node* c=new Node(50);
+    Node* d=new Node(40);
     head->next=a;
     a->next=b;
     b->next=c;
